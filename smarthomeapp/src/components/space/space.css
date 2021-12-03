@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+ } 
+ .card{
+    margin: 5px;
+     background: #ffffff;
+     color: #000;
+     width: 200px;
+     padding: 20px;
+     box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.377);
+     border-radius: 20px; 
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .title{
+     font-weight: bold;
+     font-size: 14px;
+ }
+
+ .normal-align{
+     text-align: left;
+ }
