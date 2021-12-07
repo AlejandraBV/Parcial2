@@ -1,0 +1,76 @@
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  margin: 5px;
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding-right: 100px;
+}
+
+.col-4 {
+  width: 25%;
+  margin: 5px;
+  display: inline-flex;
+}
+
+.card-room {
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  color: #000;
+  padding: 20px;
+  box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.377);
+  border-radius: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  text-align: left;
+}
+
+#customers td,
+#customers th {
+  border-top: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers td:nth-child(1) {
+  font-weight: bold;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  color: black;
+  text-align: left;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.clicked {
+  cursor: pointer;
+}
